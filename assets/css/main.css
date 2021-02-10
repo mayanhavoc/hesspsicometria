@@ -1,11 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
-
-/*
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap");
 
 html,
 body,
@@ -194,10 +189,10 @@ body,
 input,
 textarea,
 select {
-  font-family: "Source Sans Pro";
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
-  color: #5d5d5d;
-  font-size: 14pt;
+  color: #1c1c1c;
+  font-size: 16pt;
   line-height: 1.75em;
 }
 
@@ -2216,11 +2211,11 @@ ul.social li a.fa-google-plus:hover {
 
 #nav > ul > li:hover > a,
 #nav > ul > li.active > a {
-  background: #f3f3f3;
+  background: rgba(251, 152, 66, 0.8);
 }
 
 #nav > ul > li.current > a {
-  background: #f09d51;
+  background: rgb(251, 152, 66);
   color: #000000 !important;
   font-weight: 700;
 }
@@ -2278,7 +2273,7 @@ ul.social li a.fa-google-plus:hover {
 /* Banner */
 
 #banner {
-  background: #cce8f4 url("../../images/banner7-bluemountains.JPG");
+  background: #cce8f4 url("../../images/pic06.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3034,4 +3029,9 @@ ul.social li a.fa-google-plus:hover {
   #footer {
     padding: 40px 0 20px 0;
   }
+}
+
+.software-download {
+  display: flex;
+  justify-content: space-evenly;
 }
